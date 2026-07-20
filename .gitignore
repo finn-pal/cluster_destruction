@@ -1,0 +1,7 @@
+.venv311/
+.venv312/
+.vscode/
+data/
+notebooks/
+nuke/
+my_env/

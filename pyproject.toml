@@ -1,0 +1,21 @@
+[tool.ruff]
+exclude = [".venv"]
+extend-include = ["*.ipynb"]
+
+# Set the maximum line length to 110.
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "Q", "I"]
+extend-select = ["E501"]
+
+ignore = []
+
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+line-ending = "auto"
+docstring-code-format = false
+docstring-code-line-length = "dynamic"
+

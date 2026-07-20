@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#PBS -N run_data_conversion_m12c
+#PBS -l select=1:ncpus=6:mem=124gb
+#PBS -l walltime=12:00:00
+#PBS -M f.pal@unsw.edu.au
+#PBS -m bae
+#PBS -j oe
+#PBS -o ../reports/output_reports
+#PBS -e ../reports/error_reports
+
+cd $PBS_O_WORKDIR
+source ../my_env/bin/activate
+
+python3 ../src/data_conversion.py --simulation=m12c --location=katana --cores=6
