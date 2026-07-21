@@ -35,7 +35,7 @@ fonttools==4.54.1
 fqdn==1.5.1
 fsps==0.4.7
 gast==0.7.0
-gc_simulation_utilities @ file:///Users/z5114326/Documents/GitHub/gc_simulation_utilities
+# gc_simulation_utilities @ file:///Users/z5114326/Documents/GitHub/gc_simulation_utilities
 gizmo_analysis==1.0.2
 graphviz==0.21
 h11==0.16.0
@@ -115,6 +115,7 @@ rfc3987-syntax==1.1.0
 rpds-py==0.30.0
 scikit-learn==1.7.2
 scipy==1.14.1
+seaborn==0.13.2
 Send2Trash==1.8.3
 six==1.16.0
 soupsieve==2.8
